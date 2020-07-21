@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:layout_below="@+id/company_job_title"
+        android:layout_alignLeft="@+id/company_job_title"
+        android:layout_alignStart="@+id/company_job_title"
+        android:capitalize="words"
+        android:text="Company Name"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/business" />
+
+    <TextView
+        android:id="@+id/company_job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="JOB TITLE"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/company_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:layout_alignLeft="@+id/company_name"
+        android:layout_alignStart="@+id/company_name"
+        android:layout_below="@+id/company_name"
+        android:capitalize="words"
+        android:text="venue"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/company_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:layout_alignLeft="@+id/company_place"
+        android:layout_alignStart="@+id/company_place"
+        android:layout_below="@+id/company_place"
+        android:layout_marginBottom="15dp"
+        android:text="Mobile"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/menu_more"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/company_place"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/company_mobile"
+        android:background="#9E9E9E"/>
+</RelativeLayout>

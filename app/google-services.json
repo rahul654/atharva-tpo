@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "870003933406",
+    "firebase_url": "https://apsittpo.firebaseio.com",
+    "project_id": "apsittpo",
+    "storage_bucket": "apsittpo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870003933406:android:79a1b88fa3955b12ebc24f",
+        "android_client_info": {
+          "package_name": "com.apsit.apsittpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870003933406-cfdqkg1ph04svsmqer60ea5ll54l6srg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrMpnK7BLb2YVVAs8jNHmBs2Q2cE3KVM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870003933406-cfdqkg1ph04svsmqer60ea5ll54l6srg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

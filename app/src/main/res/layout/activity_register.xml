@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.apsit.apsittpo.RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="31dp"
+        android:text="Create a New Account"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp" />
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginBottom="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/inputFieldLayout">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/aj_job_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default">
+
+        <EditText
+            android:id="@+id/reg_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Full Name"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/aj_job_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textInputLayout2"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default">
+
+        <EditText
+            android:id="@+id/reg_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textInputLayout3"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default">
+
+        <EditText
+            android:id="@+id/reg_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Place / City"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_10thpercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="10th percentage"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_10thboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="10th Board Name"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_10th_passing_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="10th Passing Year"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_12thpercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="12th Percentage"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_12thboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="12th Board Name"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:layout_below="@+id/textInputLayout11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/reg_12th_passing_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+                android:hint="12th Passing Year"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:layout_below="@+id/textInputLayout12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/reg_diploma_percent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+                android:hint="Diploma Percentage"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:layout_below="@+id/textInputLayout13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/reg_diploma_board"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+                android:hint="Diploma Board Name"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:layout_below="@+id/textInputLayout14"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/reg_diploma_passing_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+                android:hint="Diploma Passing Year"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+        </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_university_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="University Name"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Degree"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Department"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/reg_degree_cgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Degree CGPA"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:layout_below="@+id/textInputLayout19"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+
+            <EditText
+                android:id="@+id/reg_degree_passing_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+                android:hint="Degree Passing Year"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textInputLayout4"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:id="@+id/textInputLayout5">
+
+        <EditText
+            android:id="@+id/reg_college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="College name"
+            android:inputType="textCapWords"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+</ScrollView>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorAccent"
+        android:text="R E G I S T E R"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp" />
+</RelativeLayout>
+
