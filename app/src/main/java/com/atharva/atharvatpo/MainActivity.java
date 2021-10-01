@@ -1,4 +1,4 @@
-package com.apsit.apsittpo;
+package com.atharva.atharvatpo;
 
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.atharva.atharvatpo.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         mToolbar = (Toolbar) findViewById(R.id.main_page_toolbar);
 
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("A P S I T   T P O");
+        getSupportActionBar().setTitle("A T H A R V A   T P O");
 
         if (mAuth.getCurrentUser() != null) {
 

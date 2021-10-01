@@ -1,13 +1,14 @@
-package com.apsit.apsittpo;
+package com.atharva.atharvatpo;
 
-public class Company {
+public class Students {
+
     public String date;
 
-    public Company(){
+    public Students(){
 
     }
 
-    public Company(String date) {
+    public Students(String date) {
         this.date = date;
     }
 

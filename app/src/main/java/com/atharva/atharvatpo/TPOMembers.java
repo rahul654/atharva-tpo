@@ -1,14 +1,13 @@
-package com.apsit.apsittpo;
+package com.atharva.atharvatpo;
 
-public class Students {
-
+public class TPOMembers {
     public String date;
 
-    public Students(){
+    public TPOMembers(){
 
     }
 
-    public Students(String date) {
+    public TPOMembers(String date) {
         this.date = date;
     }
 

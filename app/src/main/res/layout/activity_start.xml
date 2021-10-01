@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.apsit.apsittpo.StartActivity">
+    tools:context="com.atharva.atharvatpo.StartActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -15,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="85dp"
         android:fontFamily="monospace"
-        android:text="APSIT TPO"
+        android:text="ATHARVA TPO"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textSize="30sp"
         android:textStyle="bold" />

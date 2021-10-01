@@ -1,7 +1,6 @@
-package com.apsit.apsittpo.Fragment;
+package com.atharva.atharvatpo.Fragment;
 
 
-import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -17,10 +16,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.apsit.apsittpo.Company;
-import com.apsit.apsittpo.CompanyDetailsActivity;
-import com.apsit.apsittpo.R;
-import com.apsit.apsittpo.TPOMembers;
+import com.atharva.atharvatpo.R;
+import com.atharva.atharvatpo.TPOMembers;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;

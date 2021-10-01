@@ -1,4 +1,4 @@
-package com.apsit.apsittpo;
+package com.atharva.atharvatpo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

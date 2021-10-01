@@ -1,13 +1,13 @@
-package com.apsit.apsittpo;
+package com.atharva.atharvatpo;
 
-public class TPOMembers {
+public class Company {
     public String date;
 
-    public TPOMembers(){
+    public Company(){
 
     }
 
-    public TPOMembers(String date) {
+    public Company(String date) {
         this.date = date;
     }
 

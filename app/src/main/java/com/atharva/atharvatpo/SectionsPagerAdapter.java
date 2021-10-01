@@ -1,14 +1,14 @@
-package com.apsit.apsittpo;
+package com.atharva.atharvatpo;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.apsit.apsittpo.Fragment.AddTpoMemberFragment;
-import com.apsit.apsittpo.Fragment.CompanyListFragment;
-import com.apsit.apsittpo.Fragment.StudentListFragment;
-import com.apsit.apsittpo.Fragment.TPOMemberListFragment;
-import com.apsit.apsittpo.Fragment.ViewUserProfileFragment;
+import com.atharva.atharvatpo.Fragment.AddTpoMemberFragment;
+import com.atharva.atharvatpo.Fragment.CompanyListFragment;
+import com.atharva.atharvatpo.Fragment.StudentListFragment;
+import com.atharva.atharvatpo.Fragment.TPOMemberListFragment;
+import com.atharva.atharvatpo.Fragment.ViewUserProfileFragment;
 
 /**
  * Created by MANIKANDAN on 13-08-2017.

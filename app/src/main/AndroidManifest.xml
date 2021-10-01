@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.apsit.apsittpo">
+    package="com.atharva.atharvatpo">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -9,28 +9,28 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/tpo_logo"
-        android:label="@string/app_name"
+        android:label="ATHARVA TPO"
         android:roundIcon="@drawable/tpo_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditProfileActivity"></activity>
-        <activity android:name=".CompanyDetailsActivity" />
-        <activity android:name=".StudentDetailsActivity" />
-        <activity android:name=".ForgotPassword" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.atharva.atharvatpo.EditProfileActivity"></activity>
+        <activity android:name="com.atharva.atharvatpo.CompanyDetailsActivity" />
+        <activity android:name="com.atharva.atharvatpo.StudentDetailsActivity" />
+        <activity android:name="com.atharva.atharvatpo.ForgotPassword" />
+        <activity android:name="com.atharva.atharvatpo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name="com.atharva.atharvatpo.RegisterActivity" />
+        <activity android:name="com.atharva.atharvatpo.LoginActivity" />
         <activity
-            android:name=".StartActivity"
+            android:name="com.atharva.atharvatpo.StartActivity"
             android:label="startActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".AddJobActivity" />
+        <activity android:name="com.atharva.atharvatpo.AddJobActivity" />
     </application>
 
 </manifest>

@@ -11,7 +11,7 @@
     android:layout_height="match_parent"
     android:paddingBottom="20dp"
     android:background="@color/colorPrimary"
-    tools:context=".CompanyDetailsActivity">
+    tools:context="com.atharva.atharvatpo.CompanyDetailsActivity">
 
     <TextView
         android:layout_width="match_parent"

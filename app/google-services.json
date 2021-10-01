@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "870003933406",
-    "firebase_url": "https://apsittpo.firebaseio.com",
-    "project_id": "apsittpo",
-    "storage_bucket": "apsittpo.appspot.com"
+    "project_number": "1091935927427",
+    "firebase_url": "https://atharva-tpo-android-default-rtdb.firebaseio.com",
+    "project_id": "atharva-tpo-android",
+    "storage_bucket": "atharva-tpo-android.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:870003933406:android:79a1b88fa3955b12ebc24f",
+        "mobilesdk_app_id": "1:1091935927427:android:549f1a1ad528b712ac6fb6",
         "android_client_info": {
-          "package_name": "com.apsit.apsittpo"
+          "package_name": "com.atharva.atharvatpo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "870003933406-cfdqkg1ph04svsmqer60ea5ll54l6srg.apps.googleusercontent.com",
+          "client_id": "1091935927427-1ubv6fs5pvfl3d302rhtqat06kne04sj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCrMpnK7BLb2YVVAs8jNHmBs2Q2cE3KVM0"
+          "current_key": "AIzaSyBvQoadrkmG95Kj6Td3AL6IUSZgpIKidf0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "870003933406-cfdqkg1ph04svsmqer60ea5ll54l6srg.apps.googleusercontent.com",
+              "client_id": "1091935927427-1ubv6fs5pvfl3d302rhtqat06kne04sj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

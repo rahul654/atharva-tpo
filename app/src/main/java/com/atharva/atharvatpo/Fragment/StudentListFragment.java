@@ -1,4 +1,4 @@
-package com.apsit.apsittpo.Fragment;
+package com.atharva.atharvatpo.Fragment;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -14,9 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.apsit.apsittpo.R;
-import com.apsit.apsittpo.StudentDetailsActivity;
-import com.apsit.apsittpo.Students;
+import com.atharva.atharvatpo.R;
+import com.atharva.atharvatpo.StudentDetailsActivity;
+import com.atharva.atharvatpo.Students;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;

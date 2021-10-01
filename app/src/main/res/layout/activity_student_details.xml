@@ -10,7 +10,7 @@
     android:layout_height="match_parent"
     android:paddingBottom="20dp"
     android:background="@color/colorPrimary"
-    tools:context=".StudentDetailsActivity">
+    tools:context="com.atharva.atharvatpo.StudentDetailsActivity">
 
     <TextView
         android:layout_width="match_parent"

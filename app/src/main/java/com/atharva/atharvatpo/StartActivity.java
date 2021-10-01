@@ -1,4 +1,4 @@
-package com.apsit.apsittpo;
+package com.atharva.atharvatpo;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.apsit.apsittpo.R;
+import com.atharva.atharvatpo.R;
 
 public class StartActivity extends AppCompatActivity {
 
